@@ -55,26 +55,6 @@ class ImageActivity : ComponentActivity() {
 
 fun logo(){
 
-    Column (
-        modifier = Modifier
-            .fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Top,
-
-
-
-
-    ) {
-
-        Image(painter = painterResource(R.drawable.logo),
-            contentDescription = "logo",
-            modifier = Modifier
-                .border(1.dp, Color.Red)
-                .size(width = 200.dp, height = 200.dp)) //changing the image size
-
-
-
-    }
 
 }
 
